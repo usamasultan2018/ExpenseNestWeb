@@ -1,0 +1,204 @@
+/* Apply the gradient background to the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-color: #fff3f4f6; /* Background color */
+}
+
+/* Navbar styling */
+.navbar-expand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #00b2e7, #e064f7, #ff8d6c); /* Gradient background */
+    border-radius: 5px;
+}
+
+/* Manage button styling */
+.manage {
+    padding: 10px;
+    background: linear-gradient(135deg, #00b2e7, #e064f7, #ff8d6c);
+    color: #ffffff;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Navbar logo styling */
+.navbar-logo img {
+    height: 50px;
+}
+
+/* Navbar links container */
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar list */
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Individual nav items */
+.nav-item a {
+    text-decoration: none;
+    color: #ffffff; /* White text for links */
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* General styling for container */
+.container.my-4 {
+    margin: 20px auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Row styling */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Column styling */
+.col-1, .col-2 {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main content styling */
+.main-content {
+    text-align: left;
+}
+
+.main-content h1 {
+    font: size 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.main-content h1 span {
+    font-size: 20px;
+    
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    color: #333; /* Dark text for readability */
+    margin-bottom: 14px;
+}
+
+/* Download buttons container */
+.download-buttons {
+    margin-top: 20px;
+}
+
+.app-download-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.app-download-buttons img {
+    display: inline-block;
+    width: 170px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the image maintains its aspect ratio */
+}
+
+/* App mockup image styling */
+.col-2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-1, .col-2 {
+        flex: none;
+        width: 100%;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+    }
+
+   
+}
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #00b2e7, #e064f7, #ff8d6c); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center; /* Center text and links */
+    font-size: 16px;
+}
+
+/* Style for navigation links */
+footer .nav-link {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Add spacing between links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+footer .nav-link:hover {
+    color: #00b2e7; /* Change color on hover */
+}
+
+/* Style for social media icon */
+footer a i {
+    font-size: 20px; /* Size of the Twitter icon */
+    color: #fff; /* White icon color */
+    margin-left: 10px; /* Space between the icon and text */
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for social media icon */
+footer a i:hover {
+    color: #00b2e7; /* Change icon color on hover */
+}
+
+/* Responsive design for footer */
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    footer .nav-link {
+        display: block; /* Stack the links vertically */
+        margin-bottom: 10px; /* Add space between links */
+    }
+
+    footer a i {
+        font-size: 24px; /* Adjust icon size for smaller screens */
+    }
+}
