@@ -120,6 +120,8 @@ body {
     display: inline-block;
     width: 170px; /* Set a fixed width */
     height: 50px; /* Set a fixed height */
+    opacity: 0;
+
     object-fit: contain; /* Ensure the image maintains its aspect ratio */
 }
 
@@ -128,6 +130,8 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    animation: fadeIn 2s ease forwards;
+
 }
 
 /* Responsive Design */
